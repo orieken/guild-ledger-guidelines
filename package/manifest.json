@@ -1,0 +1,30 @@
+{
+  "schema_version": "guild-ledger.harness-package/v1",
+  "harness_id": "H1",
+  "package_version": "0.1.0-draft",
+  "status": "offline-assembly-only; not admitted",
+  "assets": {
+    "guidelines.md": "fdf8e1e4d8abd311b2864ec54b51ecd640dcedd61c9587f8dcc46dad26344567"
+  },
+  "stages": [
+    {
+      "id": "coding",
+      "instructions": [
+        "guidelines.md"
+      ],
+      "fresh_session": true
+    }
+  ],
+  "initial_stage": "coding",
+  "tools_added": [],
+  "skills_added": [],
+  "policy": {
+    "review_sessions": 0,
+    "max_repair_sessions": 0,
+    "recursive_agents": false,
+    "model_and_effort": "same-as-campaign",
+    "limits": "shared-aggregate-attempt-allowance",
+    "private_evaluator_access": false,
+    "product_requirements_added": false
+  }
+}
